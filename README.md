@@ -1,41 +1,61 @@
-# Cybersecurity Internship - Week 3
+# 🔐 DG Interns Hub – Cybersecurity Internship | Week 3
 
-## Overview
+## Network Scanning, Traffic Analysis & Vulnerability Assessment
 
-This repository contains the practical work completed during Week 3
-of my cybersecurity internship.
+This repository contains my **Week 3 practical work** completed as part of the **DG Interns Hub Cybersecurity Internship**.
 
-The practical focused on:
+The week focused on understanding network scanning, packet-level traffic analysis, network event investigation, and basic vulnerability assessment using **Nmap, Wireshark, Kali Linux, and VirtualBox**.
 
-- Network scanning using Nmap
-- TCP SYN scanning
-- TCP packet analysis
-- Wireshark traffic analysis
-- DNS analysis
-- ICMP analysis
-- ARP analysis
-- Basic vulnerability assessment
+---
 
-## Tools Used
+## 👨‍💻 Intern Details
 
-- Kali Linux
-- Nmap
-- Wireshark
-- VirtualBox
+| Details | Information |
+|---|---|
+| **Name** | Ajinkya Thorat |
+| **Program** | B.E. Computer Engineering |
+| **Internship** | Cybersecurity Internship |
+| **Organization** | DG Interns Hub |
+| **Week** | Week 3 |
+| **Platform** | Kali Linux |
+| **Target** | `172.19.21.31` |
+| **Capture Interface** | `eth0` |
 
-## Laboratory Target
+---
 
-Target: `172.19.21.31`
+# 🎯 Objectives
 
-All testing was performed within an authorized laboratory environment.
+The objectives of this week's practical were:
 
-## Nmap
+- Perform network scanning using Nmap.
+- Observe scanning activity using Wireshark.
+- Understand general TCP traffic.
+- Analyze TCP SYN packets.
+- Analyze TCP RST/ACK responses.
+- Identify DNS traffic.
+- Analyze ICMP traffic.
+- Analyze ARP communication.
+- Correlate Nmap results with packet-level evidence.
+- Perform a basic vulnerability and exposure assessment.
+- Document security observations and recommendations.
 
-Commands used:
+---
 
-```bash
-nmap 172.19.21.31
-nmap -sS 172.19.21.31
-nmap -sV 172.19.21.31
-sudo nmap -O 172.19.21.31
-sudo nmap --script vuln 172.19.21.31
+# 🧪 Laboratory Environment
+
+The practical work was performed in an authorized laboratory environment.
+
+### Environment
+
+```text
+Kali Linux
+    │
+    │
+    ▼
+Virtual Network
+   Switch
+    │
+    │
+    ▼
+Target VM
+172.19.21.31
